@@ -1,0 +1,39 @@
+*{
+  margin:0px;
+	padding:0px;
+}
+
+header, footer{
+  background-color:#1F2937;
+}
+
+header > h1{
+  font-size:20px;
+	color:#F9FAF8;
+}
+
+header li, .hero-container p{
+  font-size:16px;
+  color:#E5E7EB;
+}
+
+.hero-container h1{
+  color:#F9FAF8;
+	font-weight:extra-bold;
+	font-size:44px;
+}
+
+.quote-section{
+  text-align:left;
+  padding:10vh 20vw 10vh 20vw;
+  background-color:#E5E7EB;
+  color:#1F2937;
+	font-size:26px;
+	font-weight:light;
+	font-style:italic;
+}
+
+.quote-section p{
+  float:right;
+	font-size:20px;
+}
