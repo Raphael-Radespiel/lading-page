@@ -12,9 +12,23 @@ header, footer{
   background-color:#1F2937;
 }
 
-header > h1{
+#header-logo{
   font-size:20px;
 	color:#F9FAF8;
+}
+
+.head-container{
+  padding-top:30px;
+	padding-bottom:50px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.nav-container{
+  display:flex;
+	justify-content:flex-end;
+	list-style-type:none;
+	gap:20px;
 }
 
 header li, .hero-container p{
