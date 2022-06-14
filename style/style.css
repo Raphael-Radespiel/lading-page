@@ -3,6 +3,11 @@
 	padding:0px;
 }
 
+img{
+  width:200px;
+	height:auto;
+}
+
 header, footer{
   background-color:#1F2937;
 }
@@ -21,6 +26,20 @@ header li, .hero-container p{
   color:#F9FAF8;
 	font-weight:extra-bold;
 	font-size:44px;
+}
+
+.hero-container{
+  padding:40px;
+  display:flex;
+  justify-content:center;
+}
+
+.hero-item{
+  flex:1 1 auto;
+}
+
+.hero-text{
+  width:40%;
 }
 
 .quote-section{
