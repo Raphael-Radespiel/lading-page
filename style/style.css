@@ -6,11 +6,6 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-img{
-  width:200px;
-	height:auto;
-}
-
 .container{
   display:flex;
 }
@@ -28,7 +23,7 @@ header, footer{
 
 .head{
   padding-top:30px;
-	padding-bottom:50px;
+	padding-bottom:20px;
   justify-content:space-around;
 }
 
@@ -43,23 +38,41 @@ header li, .hero p{
   color:#E5E7EB;
 }
 
+/*Hero Section*/
+
 .hero h1{
   color:#F9FAF8;
-	font-weight:extra-bold;
+	font-weight:900;
 	font-size:44px;
 }
 
 .hero{
-  padding:40px;
+  padding:40px 25%;
   justify-content:center;
 }
 
-.hero-item{
-  flex:1 1 auto;
+.hero-image{
+  flex: 1 1 auto;
+	width:35%;
+}
+
+.hero-image img{
+  width:100%;
+	height:auto;
 }
 
 .hero-text{
-  width:40%;
+  flex: 1 1 auto;
+	width:35%;
+}
+
+.hero-text input{
+  background-color:#3882F6;
+	color:#F9FAF8;
+	border:2px solid #3882F6;
+	border-radius:10%;
+	width:25%;
+	margin: 10px 0;
 }
 
 /* Quote Section */
