@@ -113,7 +113,7 @@ header li, .hero p{
   background-color:#E5E7EB;
   color:#1F2937;
 	font-size:26px;
-	font-weight:light;
+	font-weight:400;
 	font-style:italic;
 }
 
@@ -121,3 +121,45 @@ header li, .hero p{
   text-align:right;
 	font-size:20px;
 }
+
+/* Call to Action Section */
+
+.call-to-action{
+  justify-content:center;
+	margin:5% 10%;
+  padding:40px 100px;
+  background-color:#3882F6;
+	border-radius:10px;
+}
+
+.cta-item{
+  flex: 1 1 auto;
+}
+
+.cta-item.text{
+  width: 75%;
+	font-weight:900;
+	color:#FAF9F8;
+}
+
+.cta-item.button input{ 
+  font-size: 20px;
+	font-weight: 900;
+	padding: 5px 20px;
+  background-color:#3882F6;
+  color:#FAF9F8;
+	border:2px solid #FAF9F8;
+	border-radius: 10px;
+	text-align:center;
+}
+
+/* Copyright Section */
+
+footer p{
+  text-align: center;
+	font-size: 20px;
+	padding: 50px 0;
+	color:#F9FAF8;
+}
+
+
