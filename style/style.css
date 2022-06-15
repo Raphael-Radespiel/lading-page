@@ -64,6 +64,7 @@ header li, .hero p{
 .hero-text{
   flex: 1 1 auto;
 	width:35%;
+	margin: 0 20px 0 0;
 }
 
 .hero-text input{
@@ -73,6 +74,36 @@ header li, .hero p{
 	border-radius:10%;
 	width:25%;
 	margin: 10px 0;
+}
+
+/*Information Section*/
+#info-header{
+  font-size: 36px;
+	font-weight:900;
+	color: #1F2937;
+	text-align:center;
+	margin: 40px 0;
+}
+
+.info{
+  justify-content:center;
+	margin: 0px 25% 90px 25%;
+}
+
+.info-item{
+  flex: 1 1 auto;
+  margin: 20px;	
+}
+
+.info-item img{
+  width: 100%;
+	height: auto;
+}
+
+.info-item p{
+  text-align: center;
+	font-size: 13px;
+	color: #1F2937;
 }
 
 /* Quote Section */
