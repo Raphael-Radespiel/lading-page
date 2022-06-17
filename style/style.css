@@ -1,12 +1,11 @@
+/* Global
+-----------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
-  /* --name: value; */
-  /* To use = var(--name); */
-  /* There is also fallback var(--name, fall, fall)*/
-  /* Declare on root so its available for the whole document */
   --primary:#1F2937;
-	--secondary: #E5E7EB;
+	--secondary:#E5E7EB;
 	--accent: #3882F6;
 }
 
@@ -16,20 +15,39 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+h1, p{
+  color:#F9FAF8;
+}
+
 .container{
   display:flex;
+}
+
+.big-font{
+	font-weight:900;
+	font-size:44px;
+}
+
+.medium-font{
+	font-size:26px;
+	font-weight:400;
+}
+
+.small-font{
+  font-size: 20px;
+	font-weight: 900;
 }
 
 header, footer{
   background-color:var(--primary);
 }
-
-/*Header Section*/
-
-#header-logo{
-  font-size:20px;
-	color:#F9FAF8;
+.cta-item.button input, .hero-text input, 
+.call-to-action{
+  background-color:var(--accent);
 }
+
+/* Header 
+-----------------------------*/
 
 .head{
   padding-top:30px;
@@ -48,13 +66,8 @@ header li, .hero p{
   color:var(--secondary);
 }
 
-/*Hero Section*/
-
-.hero h1{
-  color:#F9FAF8;
-	font-weight:900;
-	font-size:44px;
-}
+/* Hero
+-----------------------------*/
 
 .hero{
   padding:40px 25%;
@@ -78,7 +91,6 @@ header li, .hero p{
 }
 
 .hero-text input{
-  background-color:var(--accent);
 	color:#F9FAF8;
 	border:2px solid var(--accent);
 	border-radius:10%;
@@ -88,8 +100,6 @@ header li, .hero p{
 
 /*Information Section*/
 #info-header{
-  font-size: 36px;
-	font-weight:900;
 	color: var(--primary);
 	text-align:center;
 	margin: 40px 0;
@@ -122,13 +132,12 @@ header li, .hero p{
   padding:10vh 20vw 10vh 20vw;
   background-color:var(--secondary);
   color:var(--primary);
-	font-size:26px;
-	font-weight:400;
 	font-style:italic;
 }
 
 .quote-section p{
   text-align:right;
+  color:var(--primary);
 	font-size:20px;
 }
 
@@ -138,7 +147,6 @@ header li, .hero p{
   justify-content:center;
 	margin:5% 10%;
   padding:40px 100px;
-  background-color:var(--accent);
 	border-radius:10px;
 }
 
@@ -153,10 +161,7 @@ header li, .hero p{
 }
 
 .cta-item.button input{ 
-  font-size: 20px;
-	font-weight: 900;
 	padding: 5px 20px;
-  background-color:var(--accent);
   color:#FAF9F8;
 	border:2px solid #FAF9F8;
 	border-radius: 10px;
@@ -167,9 +172,8 @@ header li, .hero p{
 
 footer p{
   text-align: center;
-	font-size: 20px;
 	padding: 50px 0;
 	color:#F9FAF8;
 }
 
-
+/*177*/
