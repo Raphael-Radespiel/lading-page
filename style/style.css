@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root{
+  /* --name: value; */
+  /* To use = var(--name); */
+  /* There is also fallback var(--name, fall, fall)*/
+  /* Declare on root so its available for the whole document */
+  --primary:#1F2937;
+	--secondary: #E5E7EB;
+	--accent: #3882F6;
+}
+
 *{
   margin:0px;
 	padding:0px;
@@ -11,7 +21,7 @@
 }
 
 header, footer{
-  background-color:#1F2937;
+  background-color:var(--primary);
 }
 
 /*Header Section*/
@@ -35,7 +45,7 @@ header, footer{
 
 header li, .hero p{
   font-size:16px;
-  color:#E5E7EB;
+  color:var(--secondary);
 }
 
 /*Hero Section*/
@@ -68,9 +78,9 @@ header li, .hero p{
 }
 
 .hero-text input{
-  background-color:#3882F6;
+  background-color:var(--accent);
 	color:#F9FAF8;
-	border:2px solid #3882F6;
+	border:2px solid var(--accent);
 	border-radius:10%;
 	width:25%;
 	margin: 10px 0;
@@ -80,7 +90,7 @@ header li, .hero p{
 #info-header{
   font-size: 36px;
 	font-weight:900;
-	color: #1F2937;
+	color: var(--primary);
 	text-align:center;
 	margin: 40px 0;
 }
@@ -103,15 +113,15 @@ header li, .hero p{
 .info-item p{
   text-align: center;
 	font-size: 13px;
-	color: #1F2937;
+	color:var(--primary);
 }
 
 /* Quote Section */
 .quote-section{
   text-align:left;
   padding:10vh 20vw 10vh 20vw;
-  background-color:#E5E7EB;
-  color:#1F2937;
+  background-color:var(--secondary);
+  color:var(--primary);
 	font-size:26px;
 	font-weight:400;
 	font-style:italic;
@@ -128,7 +138,7 @@ header li, .hero p{
   justify-content:center;
 	margin:5% 10%;
   padding:40px 100px;
-  background-color:#3882F6;
+  background-color:var(--accent);
 	border-radius:10px;
 }
 
@@ -146,7 +156,7 @@ header li, .hero p{
   font-size: 20px;
 	font-weight: 900;
 	padding: 5px 20px;
-  background-color:#3882F6;
+  background-color:var(--accent);
   color:#FAF9F8;
 	border:2px solid #FAF9F8;
 	border-radius: 10px;
