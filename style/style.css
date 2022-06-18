@@ -1,6 +1,5 @@
 /* Global
 -----------------------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
@@ -23,17 +22,17 @@ h1, p{
   display:flex;
 }
 
-.big-font{
+.huge-font{
 	font-weight:900;
 	font-size:44px;
 }
 
-.medium-font{
+.big-font{
 	font-size:26px;
 	font-weight:400;
 }
 
-.small-font{
+.medium-font{
   font-size: 20px;
 	font-weight: 900;
 }
@@ -41,14 +40,13 @@ h1, p{
 header, footer{
   background-color:var(--primary);
 }
-.cta-item.button input, .hero-text input, 
+input.cta-item.button, .hero-text input, 
 .call-to-action{
   background-color:var(--accent);
 }
 
 /* Header 
 -----------------------------*/
-
 .head{
   padding-top:30px;
 	padding-bottom:20px;
@@ -68,7 +66,6 @@ header li, .hero p{
 
 /* Hero
 -----------------------------*/
-
 .hero{
   padding:40px 25%;
   justify-content:center;
@@ -98,7 +95,8 @@ header li, .hero p{
 	margin: 10px 0;
 }
 
-/*Information Section*/
+/* Information 
+-----------------------------*/
 #info-header{
 	color: var(--primary);
 	text-align:center;
@@ -126,7 +124,8 @@ header li, .hero p{
 	color:var(--primary);
 }
 
-/* Quote Section */
+/* Quote 
+-----------------------------*/
 .quote-section{
   text-align:left;
   padding:10vh 20vw 10vh 20vw;
@@ -141,8 +140,8 @@ header li, .hero p{
 	font-size:20px;
 }
 
-/* Call to Action Section */
-
+/* Call to Action
+-----------------------------*/
 .call-to-action{
   justify-content:center;
 	margin:5% 10%;
@@ -160,7 +159,7 @@ header li, .hero p{
 	color:#FAF9F8;
 }
 
-.cta-item.button input{ 
+input.cta-item.button{ 
 	padding: 5px 20px;
   color:#FAF9F8;
 	border:2px solid #FAF9F8;
@@ -168,12 +167,10 @@ header li, .hero p{
 	text-align:center;
 }
 
-/* Copyright Section */
-
+/* Copyright
+-----------------------------*/
 footer p{
   text-align: center;
 	padding: 50px 0;
 	color:#F9FAF8;
-}
-
-/*177*/
+}	
